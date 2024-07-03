@@ -1,0 +1,49 @@
+#dot {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+
+  #header {
+    text-align: center;
+    height: 64px;
+    background-color: #fff;
+  }
+
+  .content {
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+
+    .create-dot-btn,
+    .delete-dot-btn {
+      width: 100px;
+    }
+
+    &.content-without-dot {
+      height: calc(100vh - 130px);
+    }
+
+    #content-main {
+      text-align: center;
+      height: calc(100vh - 130px);
+      background-color: #fff;
+      border-right: 1px solid #cecece;
+
+      #dot {
+        width: 64px;
+        height: 64px;
+        background-color: #edc3ae;
+      }
+    }
+
+    #sider {
+      text-align: center;
+      background-color: #fff;
+    }
+  }
+
+  #footer {
+    text-align: center;
+    height: 64px;
+    background-color: #fff;
+  }
+}
